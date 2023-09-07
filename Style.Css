@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(images/office\ img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+nav {
+    background-color: ghostwhite;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0.5rem;
+    padding-left: 50rem;
+    box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+    font-size: smaller;
+}
+    
+.container {
+    background-image: url(images/segz1.JPG);
+    height: 25rem;
+    width: 60rem;
+    background-size: cover;
+    color: whitesmoke;
+    font-style: italic;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+    text-align: left;
+    padding-left: 3rem;
+    font-display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container span {
+    color: burlywood;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    padding-bottom: 0.5rem;
+    font-weight: bolder;
+    font-size: smaller;
+    box-shadow: inset 0px 0px 10px 1px rgba(247, 204, 204, 0.336);
+    padding-left: 1rem;
+}
